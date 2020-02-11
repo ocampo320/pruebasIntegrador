@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Comprar Vuelo" skipped="0" tests="1" time="13.85" timestamp="2020-02-06 10:47:47"><testcase name="Agregar Vuelo a Compra"><error message="The actor Cristian does not have the ability to browse the web" type="net.serenitybdd.screenplay.exceptions.ActorCannotBrowseTheWebException">The actor Cristian does not have the ability to browse the web</error><system-err>The actor Cristian does not have the ability to browse the web&#13;
+com.sophossolutions.www.task.NavegarA.performAs(NavegarA.java:24)&#13;
+com.sophossolutions.www.stepdefinitions.StepDefinitionDespegar.comprarvuelo(StepDefinitionDespegar.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>

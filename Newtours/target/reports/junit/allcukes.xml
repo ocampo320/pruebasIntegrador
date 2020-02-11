@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.389872">
+<testcase classname="Registrar usuario" name="Gestionar Ususarios" time="0.389872">
+<skipped><![CDATA[Given Necesito registrar un usuario.........................................undefined
+When usuario Fulanito Gomez.................................................undefined
+Then Validar usuario registrado.............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

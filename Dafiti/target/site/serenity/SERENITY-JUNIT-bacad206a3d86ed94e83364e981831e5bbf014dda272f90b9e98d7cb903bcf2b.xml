@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Buscar informacion en servicio" skipped="0" tests="2" time="7.24" timestamp="2020-02-06 10:47:13"><testcase name="Recuperar informacion del servicio"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)&#13;
+✽.valido "Colombia" y el ".co"(src/test/resources/feature/HU002_ApiCountries.feature:5)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229042000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsCountries.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11575900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Recuperar informacion del servicio",
+        "description": "",
+        "id": "buscar-informacion-en-servicio;recuperar-informacion-del-servicio;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4531702800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Buscar el pais correspondiente al 57 en el api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "57",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitionsCountries.buscarPais(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c200\u003e but was \u003c404\u003e.\n\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:244)\r\n\tat com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)\r\n\tat ✽.valido \"Colombia\" y el \".co\"(src/test/resources/feature/HU002_ApiCountries.feature:5)\r\n",
+              "duration": 171805400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "valido \"Colombia\" y el \".co\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Colombia",
+                  "offset": 8
+                },
+                {
+                  "val": "\".co\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitionsCountries.validar(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1931800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsCountries.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1721600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Recuperar informacion del servicio",
+        "description": "",
+        "id": "buscar-informacion-en-servicio;recuperar-informacion-del-servicio;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 424708400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Buscar el pais correspondiente al 90 en el api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "90",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitionsCountries.buscarPais(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c200\u003e but was \u003c404\u003e.\n\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:244)\r\n\tat com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)\r\n\tat ✽.valido \"Turkey\" y el \".tr\"(src/test/resources/feature/HU002_ApiCountries.feature:5)\r\n",
+              "duration": 5408300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "valido \"Turkey\" y el \".tr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Turkey",
+                  "offset": 8
+                },
+                {
+                  "val": "\".tr\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitionsCountries.validar(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar informacion en servicio",
+    "description": "",
+    "id": "buscar-informacion-en-servicio",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/HU002_ApiCountries.feature",
+    "tags": []
+  }
+]

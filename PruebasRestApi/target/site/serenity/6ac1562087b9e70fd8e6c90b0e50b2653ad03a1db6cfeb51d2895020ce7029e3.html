@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Recuperar informacion servicio</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">PruebasRestApi</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+        > Recuperar informacion servicio
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-02-2020 12:17</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Buscar Informacion En Servicio</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                    
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">
+                                    Recuperar informacion servicio
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+                <!-- CAST MEMBERS -->
+                <div>&nbsp;</div>
+                <div class="story-title">
+                    <table class="outcome-header">
+                        <tr>
+                            <td>
+                                <div>
+                                    <h3 class="discreet-story-header">
+                                        <i class="fa fa-2x fa-users"></i>
+                                        <span class="story-header-title">
+                                            <a class="btn btn-primary" data-toggle="collapse" href="#castDetails"
+                                               role="button" aria-expanded="true" aria-controls="castDetails">Cast</a>
+                                        </span>
+                                    </h3>
+
+                                    <div class="cast-member collapse" id="castDetails">
+                                        <table class="cast">
+                                            <tr>
+                                                    <td width="100%">
+                                                        <h4>
+                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>Semillero</span>
+                                                            <h4>
+                                                                <p></p>
+                                                                <ul>
+                                                        <li><strong>Semillero can:</strong>
+                                                            <ul>
+                                                                    <li>browse the web with CHROME</li>
+                                                                    <li>call an API at https://swapi.co/api/films/</li>
+                                                            </ul>
+                                                        </li>
+                                                                </ul>
+                                                    </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- END CAST MEMBERS -->
+
+
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Given El &lt;id&gt; en una base de datos<br>Then valido &lt;titulo&gt; y el &lt;episodio&gt;</div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:&nbsp;</h3>
+
+
+        <p class="example-tag">
+        </p>
+
+        <div class="example-table test-report">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Id</th>
+                        <th>Titulo</th>
+                        <th>Episodio</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-FAILURE"><a href="#0">1</a></td>
+                            <td class="test-FAILURE"><a
+                                    href="#0">1</a>
+                            </td>
+                            <td class="test-FAILURE"><a
+                                    href="#0">"A New Hope"</a>
+                            </td>
+                            <td class="test-FAILURE"><a
+                                    href="#0">4</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-FAILURE"><a href="#1">2</a></td>
+                            <td class="test-FAILURE"><a
+                                    href="#1">5</a>
+                            </td>
+                            <td class="test-FAILURE"><a
+                                    href="#1">"Attack of the Clones"</a>
+                            </td>
+                            <td class="test-FAILURE"><a
+                                    href="#1">2</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="110" class="greentext">Outcome</th>
+                    <th width="80" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Example #1: {id=1, titulo="A New Hope", episodio=4}
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">5.31s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given El 1 en una base de datos
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">4.99s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Semillero executes a GET on the resource 1/
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">4.56s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 80px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET https://swapi.co/api/films/1/
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#restModal-4">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="rest-query-details">
+                    <div class="collapse multi-collapse" id="restModal-4">
+                        <div class="card">
+                            <div class="card-body">
+                                        <h4>Response</h4>
+                                            <p>Status code: 200</p>
+                                            <p>Content Type: null</p>
+                                            <h4>Request Headers</h4>
+                                            <pre>Accept=*/*</pre>
+                                            <h4>Content Body</h4>
+                                            <pre></pre>
+                                            <h4>Request Cookies</h4>
+                                            <pre></pre>
+                                            <h4>Response Headers</h4>
+                                            <pre>Date: Wed, 05 Feb 2020 17:17:27 GMT<br>Content-Type: application/json<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Set-Cookie: __cfduid=d993299d30bf08c744fcb8f335935c9ec1580923047; expires=Fri, 06-Mar-20 17:17:27 GMT; path=/; domain=.swapi.co; HttpOnly; SameSite=Lax; Secure<br>X-Frame-Options: SAMEORIGIN<br>Allow: GET, HEAD, OPTIONS<br>Etag: W/&quot;efcda1cd8821a886c81de0c6de9dd6f1&quot;<br>Vary: Accept, Cookie<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Server: cloudflare<br>CF-RAY: 560689b62c16e0ae-IAD<br>Content-Encoding: gzip</pre>
+                                        <h4>Response Body</h4>
+                                            <pre>{<br>    &quot;title&quot;: &quot;A New Hope&quot;,<br>    &quot;episode_id&quot;: 4,<br>    &quot;opening_crawl&quot;: &quot;It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....&quot;,<br>    &quot;director&quot;: &quot;George Lucas&quot;,<br>    &quot;producer&quot;: &quot;Gary Kurtz, Rick McCallum&quot;,<br>    &quot;release_date&quot;: &quot;1977-05-25&quot;,<br>    &quot;characters&quot;: [<br>        &quot;https://swapi.co/api/people/1/&quot;,<br>        &quot;https://swapi.co/api/people/2/&quot;,<br>        &quot;https://swapi.co/api/people/3/&quot;,<br>        &quot;https://swapi.co/api/people/4/&quot;,<br>        &quot;https://swapi.co/api/people/5/&quot;,<br>        &quot;https://swapi.co/api/people/6/&quot;,<br>        &quot;https://swapi.co/api/people/7/&quot;,<br>        &quot;https://swapi.co/api/people/8/&quot;,<br>        &quot;https://swapi.co/api/people/9/&quot;,<br>        &quot;https://swapi.co/api/people/10/&quot;,<br>        &quot;https://swapi.co/api/people/12/&quot;,<br>        &quot;https://swapi.co/api/people/13/&quot;,<br>        &quot;https://swapi.co/api/people/14/&quot;,<br>        &quot;https://swapi.co/api/people/15/&quot;,<br>        &quot;https://swapi.co/api/people/16/&quot;,<br>        &quot;https://swapi.co/api/people/18/&quot;,<br>        &quot;https://swapi.co/api/people/19/&quot;,<br>        &quot;https://swapi.co/api/people/81/&quot;<br>    ],<br>    &quot;planets&quot;: [<br>        &quot;https://swapi.co/api/planets/2/&quot;,<br>        &quot;https://swapi.co/api/planets/3/&quot;,<br>        &quot;https://swapi.co/api/planets/1/&quot;<br>    ],<br>    &quot;starships&quot;: [<br>        &quot;https://swapi.co/api/starships/2/&quot;,<br>        &quot;https://swapi.co/api/starships/3/&quot;,<br>        &quot;https://swapi.co/api/starships/5/&quot;,<br>        &quot;https://swapi.co/api/starships/9/&quot;,<br>        &quot;https://swapi.co/api/starships/10/&quot;,<br>        &quot;https://swapi.co/api/starships/11/&quot;,<br>        &quot;https://swapi.co/api/starships/12/&quot;,<br>        &quot;https://swapi.co/api/starships/13/&quot;<br>    ],<br>    &quot;vehicles&quot;: [<br>        &quot;https://swapi.co/api/vehicles/4/&quot;,<br>        &quot;https://swapi.co/api/vehicles/6/&quot;,<br>        &quot;https://swapi.co/api/vehicles/7/&quot;,<br>        &quot;https://swapi.co/api/vehicles/8/&quot;<br>    ],<br>    &quot;species&quot;: [<br>        &quot;https://swapi.co/api/species/5/&quot;,<br>        &quot;https://swapi.co/api/species/3/&quot;,<br>        &quot;https://swapi.co/api/species/2/&quot;,<br>        &quot;https://swapi.co/api/species/1/&quot;,<br>        &quot;https://swapi.co/api/species/4/&quot;<br>    ],<br>    &quot;created&quot;: &quot;2014-12-10T14:23:31.880000Z&quot;,<br>    &quot;edited&quot;: &quot;2015-04-11T09:46:52.774897Z&quot;,<br>    &quot;url&quot;: &quot;https://swapi.co/api/films/1/&quot;<br>}</pre>
+                                            <h4>Response Cookies</h4>
+                                            <pre>__cfduid=d993299d30bf08c744fcb8f335935c9ec1580923047;Path=/;Domain=.swapi.co;Secure;HttpOnly;Expires=6/03/20 05:17 PM</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Then valido "A New Hope" y el 4
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0.19s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                A valid response is returned
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.06s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: 1 expectation failed.Expected status code &lt;400&gt; but was &lt;200&gt;.</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-6""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)<br />stepdefinitions.StepDefinitionsApi.lambda$0(StepDefinitionsApi.java:34)<br />stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                    </td>
+                    </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Example #2: {id=5, titulo="Attack of the Clones", episodio=2}
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">0.59s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given El 5 en una base de datos
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.57s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Semillero executes a GET on the resource 5/
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.56s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 80px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET https://swapi.co/api/films/5/
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                            data-target="#restModal-10">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="rest-query-details">
+                    <div class="collapse multi-collapse" id="restModal-10">
+                        <div class="card">
+                            <div class="card-body">
+                                        <h4>Response</h4>
+                                            <p>Status code: 200</p>
+                                            <p>Content Type: null</p>
+                                            <h4>Request Headers</h4>
+                                            <pre>Accept=*/*</pre>
+                                            <h4>Content Body</h4>
+                                            <pre></pre>
+                                            <h4>Request Cookies</h4>
+                                            <pre></pre>
+                                            <h4>Response Headers</h4>
+                                            <pre>Date: Wed, 05 Feb 2020 17:17:28 GMT<br>Content-Type: application/json<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Set-Cookie: __cfduid=d7a0e121c1804a434a1c11ca15eb9916e1580923048; expires=Fri, 06-Mar-20 17:17:28 GMT; path=/; domain=.swapi.co; HttpOnly; SameSite=Lax; Secure<br>X-Frame-Options: SAMEORIGIN<br>Allow: GET, HEAD, OPTIONS<br>Etag: W/&quot;bc28b26d01b8dac2e52ad696a6c53bb9&quot;<br>Vary: Accept, Cookie<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Server: cloudflare<br>CF-RAY: 560689bceb65ea4d-IAD<br>Content-Encoding: gzip</pre>
+                                        <h4>Response Body</h4>
+                                            <pre>{<br>    &quot;title&quot;: &quot;Attack of the Clones&quot;,<br>    &quot;episode_id&quot;: 2,<br>    &quot;opening_crawl&quot;: &quot;There is unrest in the Galactic\r\nSenate. Several thousand solar\r\nsystems have declared their\r\nintentions to leave the Republic.\r\n\r\nThis separatist movement,\r\nunder the leadership of the\r\nmysterious Count Dooku, has\r\nmade it difficult for the limited\r\nnumber of Jedi Knights to maintain \r\npeace and order in the galaxy.\r\n\r\nSenator Amidala, the former\r\nQueen of Naboo, is returning\r\nto the Galactic Senate to vote\r\non the critical issue of creating\r\nan ARMY OF THE REPUBLIC\r\nto assist the overwhelmed\r\nJedi....&quot;,<br>    &quot;director&quot;: &quot;George Lucas&quot;,<br>    &quot;producer&quot;: &quot;Rick McCallum&quot;,<br>    &quot;release_date&quot;: &quot;2002-05-16&quot;,<br>    &quot;characters&quot;: [<br>        &quot;https://swapi.co/api/people/2/&quot;,<br>        &quot;https://swapi.co/api/people/3/&quot;,<br>        &quot;https://swapi.co/api/people/6/&quot;,<br>        &quot;https://swapi.co/api/people/7/&quot;,<br>        &quot;https://swapi.co/api/people/10/&quot;,<br>        &quot;https://swapi.co/api/people/11/&quot;,<br>        &quot;https://swapi.co/api/people/20/&quot;,<br>        &quot;https://swapi.co/api/people/21/&quot;,<br>        &quot;https://swapi.co/api/people/22/&quot;,<br>        &quot;https://swapi.co/api/people/33/&quot;,<br>        &quot;https://swapi.co/api/people/36/&quot;,<br>        &quot;https://swapi.co/api/people/40/&quot;,<br>        &quot;https://swapi.co/api/people/43/&quot;,<br>        &quot;https://swapi.co/api/people/46/&quot;,<br>        &quot;https://swapi.co/api/people/51/&quot;,<br>        &quot;https://swapi.co/api/people/52/&quot;,<br>        &quot;https://swapi.co/api/people/53/&quot;,<br>        &quot;https://swapi.co/api/people/58/&quot;,<br>        &quot;https://swapi.co/api/people/59/&quot;,<br>        &quot;https://swapi.co/api/people/60/&quot;,<br>        &quot;https://swapi.co/api/people/61/&quot;,<br>        &quot;https://swapi.co/api/people/62/&quot;,<br>        &quot;https://swapi.co/api/people/63/&quot;,<br>        &quot;https://swapi.co/api/people/64/&quot;,<br>        &quot;https://swapi.co/api/people/65/&quot;,<br>        &quot;https://swapi.co/api/people/66/&quot;,<br>        &quot;https://swapi.co/api/people/67/&quot;,<br>        &quot;https://swapi.co/api/people/68/&quot;,<br>        &quot;https://swapi.co/api/people/69/&quot;,<br>        &quot;https://swapi.co/api/people/70/&quot;,<br>        &quot;https://swapi.co/api/people/71/&quot;,<br>        &quot;https://swapi.co/api/people/72/&quot;,<br>        &quot;https://swapi.co/api/people/73/&quot;,<br>        &quot;https://swapi.co/api/people/74/&quot;,<br>        &quot;https://swapi.co/api/people/75/&quot;,<br>        &quot;https://swapi.co/api/people/76/&quot;,<br>        &quot;https://swapi.co/api/people/77/&quot;,<br>        &quot;https://swapi.co/api/people/78/&quot;,<br>        &quot;https://swapi.co/api/people/82/&quot;,<br>        &quot;https://swapi.co/api/people/35/&quot;<br>    ],<br>    &quot;planets&quot;: [<br>        &quot;https://swapi.co/api/planets/8/&quot;,<br>        &quot;https://swapi.co/api/planets/9/&quot;,<br>        &quot;https://swapi.co/api/planets/10/&quot;,<br>        &quot;https://swapi.co/api/planets/11/&quot;,<br>        &quot;https://swapi.co/api/planets/1/&quot;<br>    ],<br>    &quot;starships&quot;: [<br>        &quot;https://swapi.co/api/starships/21/&quot;,<br>        &quot;https://swapi.co/api/starships/39/&quot;,<br>        &quot;https://swapi.co/api/starships/43/&quot;,<br>        &quot;https://swapi.co/api/starships/47/&quot;,<br>        &quot;https://swapi.co/api/starships/48/&quot;,<br>        &quot;https://swapi.co/api/starships/49/&quot;,<br>        &quot;https://swapi.co/api/starships/32/&quot;,<br>        &quot;https://swapi.co/api/starships/52/&quot;,<br>        &quot;https://swapi.co/api/starships/58/&quot;<br>    ],<br>    &quot;vehicles&quot;: [<br>        &quot;https://swapi.co/api/vehicles/4/&quot;,<br>        &quot;https://swapi.co/api/vehicles/44/&quot;,<br>        &quot;https://swapi.co/api/vehicles/45/&quot;,<br>        &quot;https://swapi.co/api/vehicles/46/&quot;,<br>        &quot;https://swapi.co/api/vehicles/50/&quot;,<br>        &quot;https://swapi.co/api/vehicles/51/&quot;,<br>        &quot;https://swapi.co/api/vehicles/53/&quot;,<br>        &quot;https://swapi.co/api/vehicles/54/&quot;,<br>        &quot;https://swapi.co/api/vehicles/55/&quot;,<br>        &quot;https://swapi.co/api/vehicles/56/&quot;,<br>        &quot;https://swapi.co/api/vehicles/57/&quot;<br>    ],<br>    &quot;species&quot;: [<br>        &quot;https://swapi.co/api/species/32/&quot;,<br>        &quot;https://swapi.co/api/species/33/&quot;,<br>        &quot;https://swapi.co/api/species/2/&quot;,<br>        &quot;https://swapi.co/api/species/35/&quot;,<br>        &quot;https://swapi.co/api/species/6/&quot;,<br>        &quot;https://swapi.co/api/species/1/&quot;,<br>        &quot;https://swapi.co/api/species/12/&quot;,<br>        &quot;https://swapi.co/api/species/34/&quot;,<br>        &quot;https://swapi.co/api/species/13/&quot;,<br>        &quot;https://swapi.co/api/species/15/&quot;,<br>        &quot;https://swapi.co/api/species/28/&quot;,<br>        &quot;https://swapi.co/api/species/29/&quot;,<br>        &quot;https://swapi.co/api/species/30/&quot;,<br>        &quot;https://swapi.co/api/species/31/&quot;<br>    ],<br>    &quot;created&quot;: &quot;2014-12-20T10:57:57.886000Z&quot;,<br>    &quot;edited&quot;: &quot;2015-04-11T09:45:01.623982Z&quot;,<br>    &quot;url&quot;: &quot;https://swapi.co/api/films/5/&quot;<br>}</pre>
+                                            <h4>Response Cookies</h4>
+                                            <pre>__cfduid=d7a0e121c1804a434a1c11ca15eb9916e1580923048;Path=/;Domain=.swapi.co;Secure;HttpOnly;Expires=6/03/20 05:17 PM</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Then valido "Attack of the Clones" y el 2
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                A valid response is returned
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: 1 expectation failed.Expected status code &lt;400&gt; but was &lt;200&gt;.</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-12""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)<br />stepdefinitions.StepDefinitionsApi.lambda$0(StepDefinitionsApi.java:34)<br />stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                    </td>
+                    </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-FAILURE">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>7.74s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <span class="version">Serenity BDD version 2.0.9</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

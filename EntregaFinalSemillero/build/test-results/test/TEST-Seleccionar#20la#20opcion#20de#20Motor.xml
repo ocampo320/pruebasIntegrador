@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Seleccionar la opcion de Motor" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T13:26:48" hostname="LAPTOP-LAFQ684S" time="39.754">
+  <properties/>
+  <testcase name="Selecionar la opcion de motor y ver el calendario" classname="Seleccionar la opcion de Motor" time="39.754"/>
+  <system-out><![CDATA[    Given Ingrese a la pagina y cambiar a edicion de espa     # StepDefinitions.ingrese_a_la_pagina_y_cambiar_a_edicion_de_espa_a()
+    When un usuario selecciona la opcion moto y el calendario # StepDefinitions.un_usuario_selecciona_la_opcion_moto_y_el_calendario()
+    Then validar que la pista sea SILVERSTONE                 # StepDefinitions.validar_que_la_pista_sea_SILVERSTONE()
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 40234
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581341210.742][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+[1581341212.745][WARNING]: Timed out connecting to Chrome, retrying...
+feb 10, 2020 8:26:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1581341216.826][WARNING]: Timed out connecting to Chrome, retrying...
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Selecionar la opcion de motor y ver el calendario
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

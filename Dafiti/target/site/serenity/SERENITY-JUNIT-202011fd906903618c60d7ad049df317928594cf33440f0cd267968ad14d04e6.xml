@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Como usuario quiero registrarme, inisiar sesion, cerrar seci�n" skipped="0" tests="1" time="24.71" timestamp="2020-02-06 10:22:33"><testcase name="Agregar Producto"><failure message="&#10;Expected: &quot;HOLA, ALEXANDE...&quot;&#10;     but: was null" type="java.lang.AssertionError">
+Expected: "HOLA, ALEXANDE..."
+     but: was null</failure><system-err>
+Expected: "HOLA, ALEXANDE..."
+     but: was null&#13;
+com.sophossolutions.www.stepdefinitions.StepDefinitionsDafiti.validarInicioSesion(StepDefinitionsDafiti.java:52)&#13;
+✽.validar inicio de sesion(src/test/resources/feature/HU001_GestionUsuariosDafiti.feature:8)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Buscar informacion en servicio" tests="6" skipped="6" failures="0" errors="0" timestamp="2020-02-10T15:20:13" hostname="LAPTOP-F536CD9L" time="42.397">
+  <properties/>
+  <testcase name="Codigo de llamada que no existe" classname="Buscar informacion en servicio" time="0.041">
+    <skipped/>
+  </testcase>
+  <testcase name="Codigo de llamada que no existe" classname="Buscar informacion en servicio" time="0.025">
+    <skipped/>
+  </testcase>
+  <testcase name="Codigo de llamada que no existe" classname="Buscar informacion en servicio" time="41.897">
+    <skipped/>
+  </testcase>
+  <testcase name="recuperar capital" classname="Buscar informacion en servicio" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase name="recuperar capital" classname="Buscar informacion en servicio" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase name="recuperar capital" classname="Buscar informacion en servicio" time="0.227">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[    Given Buscar la informacion que corresponda al 02 # null
+    Then valido el estado 404                         # null
+    Given Buscar la informacion que corresponda al 12 # null
+    Then valido el estado 404                         # null
+    Given Buscar la informacion que corresponda al 57 # null
+    Then valido el estado 404                         # null
+    Given Buscar codigo de llamada 48 # null
+    Then valido la capital "Warsaw"   # null
+    Given Buscar codigo de llamada 992 # null
+    Then valido la capital "Dushanbe"  # null
+    Given Buscar codigo de llamada 353 # null
+    Then valido la capital " Dublin"   # null
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Codigo de llamada que no existe
+---------------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Codigo de llamada que no existe
+---------------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Codigo de llamada que no existe
+---------------------------------------------------------------------------------?[0m
+[pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: recuperar capital
+---------------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: recuperar capital
+---------------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96mTEST PENDING?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: recuperar capital
+---------------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

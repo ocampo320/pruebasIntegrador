@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="5.991221">
+<testcase classname="Buscar informacion en servicio" name="Recuperar informacion del servicio" time="5.550979">
+<failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.should(Actor.java:244)&#13;&#10;&#9;at com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)&#13;&#10;&#9;at ✽.valido &quot;Colombia&quot; y el &quot;.co&quot;(src/test/resources/feature/HU002_ApiCountries.feature:5)&#13;&#10;"><![CDATA[Given Buscar el pais correspondiente al 57 en el api........................passed
+Then valido "Colombia" y el ".co"...........................................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)
+	at ✽.valido "Colombia" y el ".co"(src/test/resources/feature/HU002_ApiCountries.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Buscar informacion en servicio" name="Recuperar informacion del servicio 2" time="0.440242">
+<failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.should(Actor.java:244)&#13;&#10;&#9;at com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)&#13;&#10;&#9;at ✽.valido &quot;Turkey&quot; y el &quot;.tr&quot;(src/test/resources/feature/HU002_ApiCountries.feature:5)&#13;&#10;"><![CDATA[Given Buscar el pais correspondiente al 90 en el api........................passed
+Then valido "Turkey" y el ".tr".............................................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at com.sophossolutions.www.stepdefinitions.api.StepDefinitionsCountries.validar(StepDefinitionsCountries.java:34)
+	at ✽.valido "Turkey" y el ".tr"(src/test/resources/feature/HU002_ApiCountries.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

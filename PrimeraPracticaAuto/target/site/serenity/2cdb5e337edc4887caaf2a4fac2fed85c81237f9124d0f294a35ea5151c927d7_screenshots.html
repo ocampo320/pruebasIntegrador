@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">PrimeraPracticaAuto</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1c684ade437195d288ca694bccf5b5741adf07eb8f7e8ea0756ea9adc581d2b3.html">Comprar Vuelo</a></span>
+                > <span class="truncate-60"><a
+                    href="2cdb5e337edc4887caaf2a4fac2fed85c81237f9124d0f294a35ea5151c927d7.html">Agregar Vuelo a Compra </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-01-2020 16:51</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Comprar Vuelo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como estudiante de semillero<br />
+necesito aprender automatizaci�n a traves de ejemplos<br />
+para automatizar cualquier caso de prueba
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Agregar Vuelo a Compra
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Necesisto comprar un vuelo" width="1366"/>
+                <img src="0ce5e2354a92b9ee4d0cbc7ca2ca963b18142b6d89fe2794964fb0e6cdee9097.png" title="Given Necesisto comprar un vuelo" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Cristian opens the Inicio despegar" width="1366"/>
+                <img src="0ce5e2354a92b9ee4d0cbc7ca2ca963b18142b6d89fe2794964fb0e6cdee9097.png" title="Cristian opens the Inicio despegar" width="1366"/>
+                <img src="c4da8c752b5818c2a26b550baea52361f0e67bf0eac3e7483d7063b60461de4e.png" title="When Vuelo entre Medellin y Cali" width="1366"/>
+                <img src="da6460a6614b0704509d329d2fa663c22f09783f1948e109696349e5881b4a48.png" title="Cristian clicks on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="042b95191b51699ab7d80871371cad5c69a0ab3354028639798ea3b3cf9386b9.png" title="Cristian enters 'Medellin' into Ingresar origen Medellin" width="1366"/>
+                <img src="768b462a16037c1a23f1cf3d65978e8af50073d25a68235f7898c34ed6687b4b.png" title="Cristian enters 'Medellin' into Ingresar origen Medellin" width="1366"/>
+                <img src="bcaf03f8a34cca808ecf4542b4155b563de3f4d7b7d4700c63820bf75570a8b1.png" title="Cristian types 'ENTER' in Ingresar origen Medellin" width="1366"/>
+                <img src="5bc5e4fa8449e459e4d90758c95b356a72aff5a8a54ac5d7114be86c0897e84d.png" title="Cristian types 'ENTER' in Ingresar origen Medellin" width="1366"/>
+                <img src="ab5faddde087155faf6d94dcf79b4b7d03ee8b8b8ba69639db32c908fcea17c7.png" title="Cristian enters 'Cali' into Ingresar destino Cali" width="1366"/>
+                <img src="feeaba781d482da3cbb38720b08afac1a9041781fc14a32ea08cb3fc53973565.png" title="Cristian enters 'Cali' into Ingresar destino Cali" width="1366"/>
+                <img src="af67622b1cf67f5490936e091b54f6bb333318847b210f2e593233a925315aaf.png" title="Cristian types 'ENTER' in Ingresar destino Cali" width="1366"/>
+                <img src="cecdc01439fdf7955518c4658b176452af06c5b69b2586101aa4225c49c52ee0.png" title="Cristian types 'ENTER' in Ingresar destino Cali" width="1366"/>
+                <img src="a54c6c4468acd393e0a55c6f738f2b427c0094cbe0805d086789a8f23083dd4c.png" title="Cristian clicks on Select the origin date" width="1366"/>
+                <img src="97f035660498d011929120109977e7dffed10558be9fd07843a2e9cdd068bf00.png" title="Cristian clicks on Select the origin date" width="1366"/>
+                <img src="97f035660498d011929120109977e7dffed10558be9fd07843a2e9cdd068bf00.png" title="Cristian clicks on Selecciona la fecha" width="1366"/>
+                <img src="49dc8e47cb10f088901b011093c237e4abc5d401a1ef0f8a95b8b4dba4cae6c6.png" title="Cristian clicks on Selecciona la fecha" width="1366"/>
+                <img src="f69cb4bf8eb45c7ba531d7839917f4d890204330083cb4935acfd1b7355df6c7.png" title="Cristian clicks on Selecciona la fecha" width="1366"/>
+                <img src="ac9f779306bd854d739bda2339eafd53f3bbc97d5dd687eeb19694313ba841fd.png" title="Cristian clicks on Selecciona la fecha" width="1366"/>
+                <img src="ff4b2ab3c5db820c9db193e2637daeb40010b8b5ab22e23030dca50d80eee8ef.png" title="Cristian clicks on Selecciona la opci&oacute;n buscar" width="1366"/>
+                <img src="58e8a8b3c86075e0e9a12651605bba0c0221edbfe29e4ca361992c42e00e5d4a.png" title="Cristian clicks on Selecciona la opci&oacute;n buscar" width="1366"/>
+                <img src="9d6fc05e07db8292c64122353e422f9002f1f722bea22f11a9af400499a18458.png" title="Cristian clicks on Seleccionar vuelo" width="1366"/>
+                <img src="e7da390ff8342e07bb7e523582124f2b55bd4fa881e3586d758826b733355064.png" title="Cristian clicks on Seleccionar vuelo" width="1366"/>
+                <img src="77ecad4a132e5b834a984eee6d86441a557940dbac5dd4b51c2548af7c192813.png" title="Then Valido el valor del vuelo" width="1366"/>
+                <img src="3dc51b77132b8fd2f95371a6c8238a7edcf52247c5b8d0e48cb6fb60d468597a.png" title="Then Valido el valor del vuelo: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Gestionar Ususarios",
+        "description": "",
+        "id": "registrar-usuario;gestionar-ususarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Necesito registrar un usuario",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "usuario Fulanito Gomez",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Validar usuario registrado",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registrar usuario",
+    "description": "  como usuario quiero registrar un nuevo ususario en Newtours",
+    "id": "registrar-usuario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_RegistroUsuario.feature",
+    "tags": []
+  }
+]

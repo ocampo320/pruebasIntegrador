@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.395022">
+<testcase classname="Buscar informacion en servicio" name="Recuperar informacion servicio" time="5.803743">
+<failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.should(Actor.java:244)&#13;&#10;&#9;at stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)&#13;&#10;&#9;at ✽.valido &quot;A New Hope&quot; y el 4(src/test/resources/feature/HU001_Api.feature:5)&#13;&#10;"><![CDATA[Given El 1 en una base de datos.............................................passed
+Then valido "A New Hope" y el 4.............................................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)
+	at ✽.valido "A New Hope" y el 4(src/test/resources/feature/HU001_Api.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Buscar informacion en servicio" name="Recuperar informacion servicio 2" time="0.591279">
+<failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.should(Actor.java:244)&#13;&#10;&#9;at stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)&#13;&#10;&#9;at ✽.valido &quot;Attack of the Clones&quot; y el 2(src/test/resources/feature/HU001_Api.feature:5)&#13;&#10;"><![CDATA[Given El 5 en una base de datos.............................................passed
+Then valido "Attack of the Clones" y el 2...................................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)
+	at ✽.valido "Attack of the Clones" y el 2(src/test/resources/feature/HU001_Api.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

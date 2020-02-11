@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 103114500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Recuperar informacion servicio",
+        "description": "",
+        "id": "buscar-informacion-en-servicio;recuperar-informacion-servicio;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4996145500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "El 1 en una base de datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsApi.idBase(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c400\u003e but was \u003c200\u003e.\n\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:244)\r\n\tat stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)\r\n\tat ✽.valido \"A New Hope\" y el 4(src/test/resources/feature/HU001_Api.feature:5)\r\n",
+              "duration": 190786500,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "valido \"A New Hope\" y el 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A New Hope",
+                  "offset": 8
+                },
+                {
+                  "val": "4",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitionsApi.validoTituloEpisodio(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7609500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Recuperar informacion servicio",
+        "description": "",
+        "id": "buscar-informacion-en-servicio;recuperar-informacion-servicio;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 569476900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "El 5 en una base de datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsApi.idBase(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c400\u003e but was \u003c200\u003e.\n\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:244)\r\n\tat stepdefinitions.StepDefinitionsApi.validoTituloEpisodio(StepDefinitionsApi.java:34)\r\n\tat ✽.valido \"Attack of the Clones\" y el 2(src/test/resources/feature/HU001_Api.feature:5)\r\n",
+              "duration": 5593800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "valido \"Attack of the Clones\" y el 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Attack of the Clones",
+                  "offset": 8
+                },
+                {
+                  "val": "2",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitionsApi.validoTituloEpisodio(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar informacion en servicio",
+    "description": "",
+    "id": "buscar-informacion-en-servicio",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/HU001_Api.feature",
+    "tags": []
+  }
+]
